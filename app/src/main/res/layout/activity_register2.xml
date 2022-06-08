@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register2">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="back16"
+        android:layout_marginStart="30dp"
+        app:srcCompat="@drawable/button_back" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="Masukkan Kode OTP"
+        android:textColor="#000000"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_semibold"
+        android:textAlignment="center"
+        android:text="Kode OTP sudah dikirim ke nomor &#10; 08xxxxxxxxxxx"
+        android:textColor="#000000"
+        android:textSize="12sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:orientation="horizontal">
+
+    <EditText
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@color/grey"
+        android:focusable="true"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
+
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:background="@color/grey"
+            android:focusable="true"
+            android:layout_marginLeft="8dp"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:background="@color/grey"
+            android:focusable="true"
+            android:layout_marginLeft="8dp"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:background="@color/grey"
+            android:focusable="true"
+            android:layout_marginLeft="8dp"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="00:30"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="12sp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        android:onClick="next5"
+        android:background="@drawable/rounded_onboarding"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Konfirmasi"/>
+
+</LinearLayout>
