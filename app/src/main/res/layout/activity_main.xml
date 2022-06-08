@@ -16,4 +16,15 @@
         app:srcCompat="@drawable/logo"
         android:onClick="next"/>
 
+    <me.ibrahimsn.lib.CirclesLoadingView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        app:circleRadius="8dp"
+        app:circleMargin="8dp"
+        app:animDistance="10dp"
+        app:animDuration="500"
+        app:animDelay="150"
+        app:animInterpolator="accelerateDecelerate"/>
+
+
 </LinearLayout>
