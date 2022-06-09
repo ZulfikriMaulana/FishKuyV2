@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="98dp"
+            android:layout_marginTop="420dp"
             android:fontFamily="@font/roboto_condensed_bold"
             android:text="Login"
             android:textColor="#000000"
@@ -34,7 +34,7 @@
             android:layout_width="307dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="46dp"
+            android:layout_marginTop="35dp"
             android:hint="Email / nomor telepon">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -63,7 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="20dp"
             android:background="@drawable/rounded_onboarding"
             android:fontFamily="@font/poppins_semibold"
             android:onClick="masuk"
@@ -74,7 +74,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="20dp"
             android:fontFamily="@font/roboto_bold"
             android:onClick="forgotPw"
             android:text="Lupa Kata Sandi"
@@ -85,7 +85,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="5dp">
 
             <TextView
                 android:id="@+id/textView3"
