@@ -167,8 +167,8 @@
         android:layout_width="416dp"
         android:layout_height="61dp"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="35dp"
         android:background="@drawable/navigasi"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -227,9 +227,9 @@
             android:layout_marginEnd="37dp"
             android:layout_marginBottom="3dp"
             android:background="@drawable/navigasi4"
+            android:onClick="profile"
             app:layout_constraintBottom_toBottomOf="parent"
-            tools:layout_editor_absoluteX="324dp"
-            android:onClick="profile"/>
+            tools:layout_editor_absoluteX="324dp" />
     </RelativeLayout>
 
 </LinearLayout>
