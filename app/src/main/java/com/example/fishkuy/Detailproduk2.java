@@ -29,7 +29,7 @@ public class Detailproduk2 extends AppCompatActivity {
         startActivity(intent3);
     }
 
-    public void back7(View view) {
+    public void back5(View view) {
         Intent intent4 = new Intent(Detailproduk2.this, Ikanlaut.class);
         startActivity(intent4);
     }

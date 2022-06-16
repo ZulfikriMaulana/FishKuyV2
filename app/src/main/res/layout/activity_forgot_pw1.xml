@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/bg_auth"
     tools:context=".ForgotPw1">
 
     <ImageView
@@ -20,7 +21,7 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="130dp"
         android:layout_gravity="center"
         android:fontFamily="@font/roboto_condensed_bold"
         android:text="Lupa Kata Sandi"
@@ -59,7 +60,7 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:layout_gravity="center"
@@ -72,7 +73,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="150dp">
+        android:layout_marginTop="130dp">
 
         <TextView
             android:id="@+id/textView3"

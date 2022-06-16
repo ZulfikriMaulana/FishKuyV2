@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_auth"
     tools:context=".Lacak">
 
     <TextView
@@ -13,7 +14,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="50dp"
         android:gravity="top"
         android:text="Ikan Mujair"
         android:textSize="20dp"
@@ -29,7 +30,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="48dp"
         android:clipToOutline="true"
         android:onClick="back22"
         android:src="@drawable/button_back"
@@ -39,7 +40,7 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="200dp"
         android:background="@drawable/bg_lacak"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"

@@ -6,24 +6,66 @@
     android:layout_height="match_parent"
     tools:context=".Detailproduk3">
 
-    <ImageView
-        android:id="@+id/button2"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="40dp"
-        android:clipToOutline="true"
-        android:onClick="back11"
-        android:src="@drawable/button_back"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_marginTop="-3dp"
+        android:background="@drawable/motif_atas">
+
+        <TextView
+            android:id="@+id/ikan_air_tawar"
+            android:layout_width="135dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="56dp"
+            android:gravity="top"
+            android:text="Beli"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:layout_constraintStart_toEndOf="@+id/button2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/button2"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="55dp"
+            android:clipToOutline="true"
+            android:onClick="back5"
+            android:src="@drawable/button_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="35dp"
+            android:onClick="keranjang"
+            android:src="@drawable/keranjang" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="35dp"
+            android:onClick="chat"
+            android:src="@drawable/pesan" />
+    </RelativeLayout>
 
     <ImageView
         android:layout_width="320dp"
         android:layout_height="194dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="130dp"
         android:src="@drawable/udang_galah"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +75,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
-        android:layout_marginTop="284dp"
+        android:layout_marginTop="330dp"
         android:text="Rp. 150.000"
         android:textColor="@color/black"
         android:textSize="20dp"
@@ -45,7 +87,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
-        android:layout_marginTop="330dp"
+        android:layout_marginTop="355dp"
         android:text="Udang Galah Segar 500gr/ 1 Kg"
         android:textColor="@color/black"
         android:textSize="15dp"
@@ -56,7 +98,7 @@
     <RelativeLayout
         android:layout_width="309dp"
         android:layout_height="87dp"
-        android:layout_marginTop="362dp"
+        android:layout_marginTop="380dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -101,7 +143,7 @@
     <RelativeLayout
         android:layout_width="309dp"
         android:layout_height="70dp"
-        android:layout_marginTop="462dp"
+        android:layout_marginTop="475dp"
         android:background="@drawable/bg_pilihukuran"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -151,7 +193,7 @@
     <RelativeLayout
         android:layout_width="309dp"
         android:layout_height="163dp"
-        android:layout_marginTop="546dp"
+        android:layout_marginTop="555dp"
         android:background="@drawable/bg_pilihukuran"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
