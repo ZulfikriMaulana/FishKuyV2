@@ -10,7 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="125dp"
         android:layout_marginTop="-3dp"
-        android:background="@drawable/motif_atas">
+        android:background="@drawable/motif_atas"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/ikan_air_tawar"
@@ -89,13 +90,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
         android:layout_marginTop="355dp"
-        android:text="Ikan Kakap Putih Segar 500gr/ 1 Kg"
+        android:text="Ikan Kakap Putih Segar 1 Kg"
         android:textColor="@color/black"
         android:textSize="15dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!--
     <RelativeLayout
         android:layout_width="309dp"
         android:layout_height="87dp"
@@ -139,6 +141,7 @@
             android:textSize="13dp" />
 
     </RelativeLayout>
+    -->
 
 
     <RelativeLayout
@@ -264,7 +267,7 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="730dp"
         android:src="@drawable/button_chat_detail"
-        android:onClick="chat2"
+        android:onClick="chat"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -283,7 +286,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="244dp"
         android:layout_marginTop="730dp"
-        android:onClick="keranjang2"
+        android:onClick="keranjang"
         android:src="@drawable/button_keranjang_detail"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

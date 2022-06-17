@@ -4,17 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Lacak">
+    tools:context=".Lacak2">
 
     <RelativeLayout
         android:id="@+id/relativeLayout"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="125dp"
         android:background="@drawable/motif_atas"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="-5dp"
         tools:ignore="MissingConstraints">
 
         <ImageView
@@ -51,30 +47,29 @@
 
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/diproses"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
-        android:src="@drawable/button_diproses2"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/button_diproses2_1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
 
     <ImageView
-        android:id="@+id/buttonselesai"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
-        android:onClick="buttonselesai"
-        android:src="@drawable/button_selesai2"
+        android:layout_marginEnd="34dp"
+        android:src="@drawable/button_selesai2_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
 
     <RelativeLayout
         android:id="@+id/relativeLayout4"
         android:layout_width="314dp"
-        android:layout_height="193dp"
+        android:layout_height="211dp"
         android:layout_marginTop="200dp"
-        android:background="@drawable/bg_transaksi"
+        android:background="@drawable/bg_lacak2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
@@ -90,6 +85,7 @@
             android:src="@drawable/profile_transaksi1" />
 
         <TextView
+            android:id="@+id/Toko1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -103,11 +99,22 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/Toko1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="3dp"
+            android:text="20 Mei 2022"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="17dp"
             android:layout_marginEnd="25dp"
-            android:text="Proses"
+            android:text="Selesai"
             android:textColor="@color/tiga"
             android:textSize="12dp" />
 
@@ -139,9 +146,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/barang"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="118dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/gambar"
             android:text="1 Barang"
             android:textColor="@color/black" />
 
@@ -152,8 +159,8 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="23dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="29dp"
             android:text="Total Harga"
             android:textColor="@color/black"
             android:textSize="18dp"
@@ -162,24 +169,32 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="22dp"
+            android:layout_marginStart="20dp"
             android:layout_marginBottom="22dp"
             android:text="Rp. 60.000"
             android:textColor="@color/black"
             android:textSize="18dp" />
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:src="@drawable/buttin_belilagi" />
+
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/relativeLayout6"
+        android:id="@+id/relativeLayout5"
         android:layout_width="314dp"
-        android:layout_height="193dp"
-        android:layout_marginTop="7dp"
-        android:background="@drawable/bg_transaksi"
+        android:layout_height="211dp"
+        android:background="@drawable/bg_lacak2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/relativeLayout4">
 
@@ -193,13 +208,25 @@
             android:src="@drawable/profile_transaksi2" />
 
         <TextView
+            android:id="@+id/Toko2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginStart="70dp"
             android:layout_marginTop="17dp"
-            android:text="Toko Gak Mood Bang - Jakarta"
+            android:text="Toko Gak Mood - Jakarta"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Toko2"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="3dp"
+            android:text="20 Mei 2022"
             android:textColor="@color/black"
             android:textSize="12dp" />
 
@@ -210,7 +237,7 @@
             android:layout_alignParentEnd="true"
             android:layout_marginTop="17dp"
             android:layout_marginEnd="25dp"
-            android:text="Proses"
+            android:text="Selesai"
             android:textColor="@color/tiga"
             android:textSize="12dp" />
 
@@ -242,9 +269,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/barang2"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="118dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/gambar2"
             android:text="1 Barang"
             android:textColor="@color/black" />
 
@@ -255,8 +282,8 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="23dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="29dp"
             android:text="Total Harga"
             android:textColor="@color/black"
             android:textSize="18dp"
@@ -265,13 +292,22 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="22dp"
+            android:layout_marginStart="20dp"
             android:layout_marginBottom="22dp"
             android:text="Rp. 60.000"
             android:textColor="@color/black"
             android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:src="@drawable/buttin_belilagi" />
 
     </RelativeLayout>
 

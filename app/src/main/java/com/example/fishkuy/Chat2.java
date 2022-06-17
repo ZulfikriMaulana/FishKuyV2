@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Onboarding2 extends AppCompatActivity {
+public class Chat2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_onboarding2);
+        setContentView(R.layout.activity_chat);
     }
 
-    public void next5(View view) {
-        Intent intent = new Intent(Onboarding2.this, Login.class);
+    public void back20(View view) {
+        Intent intent = new Intent(Chat2.this, Chat.class);
         startActivity(intent);
     }
 }

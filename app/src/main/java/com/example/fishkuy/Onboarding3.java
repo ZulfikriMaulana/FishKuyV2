@@ -14,8 +14,8 @@ public class Onboarding3 extends AppCompatActivity {
         setContentView(R.layout.activity_onboarding3);
     }
 
-    public void next4(View view) {
-        Intent intent4 = new Intent(Onboarding3.this, Login.class);
-        startActivity(intent4);
+    public void next5(View view) {
+        Intent intent = new Intent(Onboarding3.this, Login.class);
+        startActivity(intent);
     }
 }
