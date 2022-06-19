@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.ibrahimsn98:CirclesLoadingView:1.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ec5a351029f83951032d320c5fd1fa56/transformed/CirclesLoadingView-1.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ec5a351029f83951032d320c5fd1fa56/transformed/CirclesLoadingView-1.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ec5a351029f83951032d320c5fd1fa56/transformed/CirclesLoadingView-1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c7894f2b9797544fd9a2faa19b2bd243/transformed/CirclesLoadingView-1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c7894f2b9797544fd9a2faa19b2bd243/transformed/CirclesLoadingView-1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c7894f2b9797544fd9a2faa19b2bd243/transformed/CirclesLoadingView-1.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
