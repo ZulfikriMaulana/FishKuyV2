@@ -5,15 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E5E5E5"
-    tools:context="Ikanlaut">
+    tools:context=".Ikanpayau">
+
 
     <RelativeLayout
-        android:id="@+id/relativeLayout11"
         android:layout_width="match_parent"
         android:layout_height="125dp"
-        android:layout_marginTop="-3dp"
         android:background="@drawable/motif_atas"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="-3dp">
 
         <TextView
             android:id="@+id/ikan_air_tawar"
@@ -24,7 +24,7 @@
             android:layout_marginStart="50dp"
             android:layout_marginTop="56dp"
             android:gravity="top"
-            android:text="Ikan Air Laut"
+            android:text="Ikan Air Payau"
             android:textColor="@color/white"
             android:textSize="20dp"
             app:layout_constraintStart_toEndOf="@+id/button2"
@@ -99,10 +99,8 @@
             android:layout_marginEnd="57dp" />
     </RelativeLayout>
 
+
     <!-- Kotak 1 -->
-
-
-
     <RelativeLayout
         android:id="@+id/satu"
         android:layout_width="152dp"
@@ -126,7 +124,7 @@
             android:layout_marginStart="6dp"
             android:layout_marginTop="6dp"
             android:layout_marginEnd="6dp"
-            android:src="@drawable/ikan_kakap_putih" />
+            android:src="@drawable/ikan_mujair" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -136,9 +134,9 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="9dp"
             android:layout_marginBottom="73dp"
-            android:text="Ikan Kakap Putih"
-            android:textSize="15dp"
-            android:textColor="@color/black"/>
+            android:text="Ikan Mujair"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -147,9 +145,9 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="18dp"
             android:layout_marginBottom="54dp"
-            android:text="Rp. 65.000 /kg"
-            android:textSize="15dp"
-            android:textColor="@color/black"/>
+            android:text="Rp. 40.000 /kg"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
 
         <Button
             android:layout_width="104dp"
@@ -160,7 +158,7 @@
             android:layout_marginStart="24dp"
             android:layout_marginEnd="24dp"
             android:layout_marginBottom="7dp"
-            android:onClick="beli2"
+            android:onClick="beli5"
             android:text="Beli" />
 
     </RelativeLayout>
@@ -178,7 +176,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/satu"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_goneMarginTop="95dp" >
+        app:layout_goneMarginTop="95dp">
 
         <ImageView
             android:layout_width="140dp"
@@ -189,7 +187,7 @@
             android:layout_marginStart="6dp"
             android:layout_marginTop="6dp"
             android:layout_marginEnd="6dp"
-            android:src="@drawable/ikan_tuna" />
+            android:src="@drawable/ikan_gurame" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -199,9 +197,9 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="9dp"
             android:layout_marginBottom="73dp"
-            android:text="Ikan Tuna"
-            android:textSize="15dp"
-            android:textColor="@color/black"/>
+            android:text="Ikan Gurame"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -210,9 +208,9 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="18dp"
             android:layout_marginBottom="54dp"
-            android:text="Rp. 80.000 /kg"
-            android:textSize="15dp"
-            android:textColor="@color/black"/>
+            android:text="Rp. 40.000 /kg"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
 
         <Button
             android:layout_width="104dp"
@@ -250,7 +248,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="4dp"
             android:layout_marginEnd="5dp"
-            android:src="@drawable/ikan_makarel" />
+            android:src="@drawable/ikan_lele" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -260,9 +258,9 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="9dp"
             android:layout_marginBottom="73dp"
-            android:text="Ikan Makarel"
-            android:textSize="15dp"
-            android:textColor="@color/black"/>
+            android:text="Ikan Lele"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -271,9 +269,9 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="18dp"
             android:layout_marginBottom="54dp"
-            android:text="Rp. 50.000 /kg"
-            android:textSize="15dp"
-            android:textColor="@color/black"/>
+            android:text="Rp. 20.000 /kg"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
 
         <Button
             android:layout_width="104dp"
@@ -311,7 +309,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="4dp"
             android:layout_marginEnd="5dp"
-            android:src="@drawable/ikan_bawal_putih" />
+            android:src="@drawable/ikan_nila" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -321,9 +319,9 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="9dp"
             android:layout_marginBottom="73dp"
-            android:text="Ikan Bawal Putih"
-            android:textSize="15dp"
-            android:textColor="@color/black"/>
+            android:text="Ikan Nila"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -333,8 +331,8 @@
             android:layout_marginTop="18dp"
             android:layout_marginBottom="54dp"
             android:text="Rp. 20.000 /kg"
-            android:textSize="15dp"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black"
+            android:textSize="15dp" />
 
         <Button
             android:layout_width="104dp"
@@ -372,7 +370,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="4dp"
             android:layout_marginEnd="5dp"
-            android:src="@drawable/ikan_cakalang" />
+            android:src="@drawable/ikan_patin" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -382,9 +380,9 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="9dp"
             android:layout_marginBottom="73dp"
-            android:text="Ikan Cakalang"
-            android:textSize="15dp"
-            android:textColor="@color/black"/>
+            android:text="Ikan Patin"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -393,9 +391,9 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="18dp"
             android:layout_marginBottom="54dp"
-            android:text="Rp. 29.000 /kg"
-            android:textSize="15dp"
-            android:textColor="@color/black"/>
+            android:text="Rp. 24.000 /kg"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
 
         <Button
             android:layout_width="104dp"
@@ -433,7 +431,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="4dp"
             android:layout_marginEnd="5dp"
-            android:src="@drawable/ikan_sarden" />
+            android:src="@drawable/ikan_gabus" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -443,9 +441,9 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="9dp"
             android:layout_marginBottom="73dp"
-            android:text="Ikan Sarden"
-            android:textSize="15dp"
-            android:textColor="@color/black"/>
+            android:text="Ikan Gabus"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -454,9 +452,9 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="18dp"
             android:layout_marginBottom="54dp"
-            android:text="Rp. 28.000 /kg"
-            android:textSize="15dp"
-            android:textColor="@color/black"/>
+            android:text="Rp. 50.000 /kg"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
 
         <Button
             android:layout_width="104dp"
@@ -470,8 +468,6 @@
             android:text="Beli" />
 
     </RelativeLayout>
-
-
 
     <!-- Navigasi
     <RelativeLayout
@@ -539,7 +535,6 @@
             app:layout_constraintBottom_toBottomOf="parent"
             tools:layout_editor_absoluteX="324dp" />
     </RelativeLayout>
-    -->
-
+-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
