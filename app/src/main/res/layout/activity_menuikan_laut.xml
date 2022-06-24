@@ -64,15 +64,6 @@
             android:onClick="chat"
             android:src="@drawable/pesan" />
 
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="100dp"
-            android:layout_marginBottom="35dp"
-            android:onClick="lacak"
-            android:src="@drawable/lacak" />
     </RelativeLayout>
 
     <RelativeLayout
