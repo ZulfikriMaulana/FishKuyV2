@@ -119,9 +119,9 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="18dp"
             android:layout_marginBottom="54dp"
-            android:text="Rp. 15.000 /kg"
-            android:textSize="15dp"
-            android:textColor="@color/black"/>
+            android:text="Rp. 150.000 /kg"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
 
         <Button
             android:layout_width="104dp"
