@@ -51,30 +51,37 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="84dp"
         android:text="Pilih Semua"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/atas" />
+
+    <ImageView
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/line"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="99dp"
         android:layout_marginEnd="48dp"
+        android:layout_marginTop="12dp"
         android:text="Hapus"
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/atas" />
 
     <RelativeLayout
+        android:id="@+id/relativeLayout16"
         android:layout_width="378dp"
         android:layout_height="142dp"
-        android:layout_marginTop="124dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/line1">
 
         <ImageView
             android:id="@+id/imageView7"
@@ -148,14 +155,22 @@
 
     </RelativeLayout>
 
+    <ImageView
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/line"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout16" />
+
     <RelativeLayout
+        android:id="@+id/relativeLayout17"
         android:layout_width="378dp"
         android:layout_height="142dp"
-        android:layout_marginTop="272dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/line2">
 
         <ImageView
             android:id="@+id/imageView6"
@@ -229,14 +244,21 @@
 
     </RelativeLayout>
 
+    <ImageView
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/line"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout17" />
+
     <RelativeLayout
         android:layout_width="378dp"
         android:layout_height="142dp"
-        android:layout_marginTop="420dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/line3">
 
         <ImageView
             android:id="@+id/imageView5"
@@ -330,7 +352,6 @@
         android:text="Rp 90.000"
         android:textColor="@color/black"
         android:textSize="20dp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -338,8 +359,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="44dp"
-        android:src="@drawable/button_beli"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/button_bayar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:onClick="beli"/>
