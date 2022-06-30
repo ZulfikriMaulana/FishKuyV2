@@ -20,10 +20,11 @@
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_main.xml" value="0.2975630611372381" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_menu_beli.xml" value="0.2941427960666952" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_menu_detailproduk.xml" value="0.22" />
-        <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_menu_faq.xml" value="0.2941427960666952" />
+        <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_menu_faq.xml" value="0.33" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_menu_feed.xml" value="0.25" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_menu_feed2.xml" value="0.25" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_menu_keranjang.xml" value="0.2941427960666952" />
+        <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_menu_lainnya.xml" value="0.15220179563916203" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_menu_postingan.xml" value="0.25" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_menu_postingan2.xml" value="0.25" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_menu_produksaya.xml" value="0.2975630611372381" />
@@ -32,6 +33,7 @@
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_menu_registoko3.xml" value="0.2975630611372381" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_menu_seafood.xml" value="0.2941427960666952" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_menu_tambahproduk.xml" value="0.22" />
+        <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_menu_tentangapk.xml" value="0.15220179563916203" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_menu_tokosaya.xml" value="0.33" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_menubeli2.xml" value="0.2941427960666952" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_menubeli3.xml" value="0.2941427960666952" />
@@ -42,7 +44,7 @@
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_onboarding2.xml" value="0.25" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_onboarding3.xml" value="0.25" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_pengiriman_pembayaran.xml" value="0.5" />
-        <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_profile.xml" value="0.5" />
+        <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_profile.xml" value="0.33" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_profile2.xml" value="0.2975630611372381" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_register.xml" value="0.2941427960666952" />
         <entry key="..\:/Kampus Merdeka/Kelompok MACRO/FILE PROJECT/FishKuyV2/app/src/main/res/layout/activity_register2.xml" value="0.2941427960666952" />

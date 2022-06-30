@@ -33,4 +33,9 @@ import android.view.View;
          Intent intent9 = new Intent(Profile.this, Keranjang.class);
          startActivity(intent9);
      }
+
+     public void qna(View view) {
+         Intent intent10 = new Intent(Profile.this, Menufaq.class);
+         startActivity(intent10);
+     }
  }

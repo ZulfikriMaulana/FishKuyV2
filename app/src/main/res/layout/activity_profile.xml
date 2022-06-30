@@ -247,7 +247,8 @@
         android:id="@+id/bantuan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/bantuan"/>
+        android:src="@drawable/bantuan"
+        android:onClick="qna"/>
 
     <ImageView
         android:layout_gravity="center"
