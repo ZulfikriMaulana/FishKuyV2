@@ -14,13 +14,28 @@ import android.view.View;
         setContentView(R.layout.activity_profile);
     }
 
-     public void back23(View view) {
+     public void home(View view) {
          Intent intent = new Intent(Profile.this, Homescreen.class);
          startActivity(intent);
      }
 
-     public void login5(View view) {
+     public void logout(View view) {
         Intent intent2 = new Intent(Profile.this, Login.class);
         startActivity(intent2);
+     }
+
+     public void chat(View view) {
+         Intent intent5 = new Intent(Profile.this, Chat.class);
+         startActivity(intent5);
+     }
+
+     public void keranjang(View view) {
+         Intent intent9 = new Intent(Profile.this, Keranjang.class);
+         startActivity(intent9);
+     }
+
+     public void qna(View view) {
+         Intent intent10 = new Intent(Profile.this, Menufaq.class);
+         startActivity(intent10);
      }
  }

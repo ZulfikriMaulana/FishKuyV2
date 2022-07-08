@@ -13,8 +13,8 @@
         android:id="@+id/imageView"
         android:layout_width="264dp"
         android:layout_height="378dp"
-        app:srcCompat="@drawable/logo"
-        android:onClick="next"/>
+        android:onClick="next"
+        app:srcCompat="@drawable/logo" />
 
     <me.ibrahimsn.lib.CirclesLoadingView
         android:layout_width="wrap_content"

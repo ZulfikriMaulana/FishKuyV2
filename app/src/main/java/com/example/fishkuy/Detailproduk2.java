@@ -14,7 +14,7 @@ public class Detailproduk2 extends AppCompatActivity {
         setContentView(R.layout.activity_detailproduk2);
     }
 
-    public void chat2(View view) {
+    public void chat(View view) {
         Intent intent = new Intent(Detailproduk2.this, Chat.class);
         startActivity(intent);
     }
@@ -24,12 +24,12 @@ public class Detailproduk2 extends AppCompatActivity {
         startActivity(intent2);
     }
 
-    public void keranjang2(View view) {
+    public void keranjang(View view) {
         Intent intent3 = new Intent(Detailproduk2.this, Keranjang.class);
         startActivity(intent3);
     }
 
-    public void back7(View view) {
+    public void back5(View view) {
         Intent intent4 = new Intent(Detailproduk2.this, Ikanlaut.class);
         startActivity(intent4);
     }

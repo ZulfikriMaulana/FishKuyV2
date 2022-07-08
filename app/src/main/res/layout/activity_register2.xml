@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/bg_auth"
     tools:context=".Register2">
 
     <ImageView
@@ -20,10 +21,10 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="120dp"
         android:layout_gravity="center"
         android:fontFamily="@font/roboto_condensed_bold"
-        android:text="Masukkan Kode OTP"
+        android:text="Kode Verifikasi"
         android:textColor="#000000"
         android:textSize="18sp"/>
 
@@ -31,11 +32,11 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:fontFamily="@font/poppins_semibold"
         android:textAlignment="center"
-        android:text="Kode OTP sudah dikirim ke nomor &#10; 08xxxxxxxxxxx"
+        android:text="Kode OTP sudah dikirim melalui pesan"
         android:textColor="#000000"
         android:textSize="12sp"/>
 
@@ -58,7 +59,7 @@
         android:textSize="20sp"
         android:gravity="center"
         android:textStyle="bold"
-        android:textColor="@color/white" />
+        android:textColor="@color/black" />
 
         <EditText
             android:layout_weight="1"
@@ -72,7 +73,7 @@
             android:textSize="20sp"
             android:gravity="center"
             android:textStyle="bold"
-            android:textColor="@color/white"/>
+            android:textColor="@color/black"/>
 
         <EditText
             android:layout_weight="1"
@@ -86,7 +87,7 @@
             android:textSize="20sp"
             android:gravity="center"
             android:textStyle="bold"
-            android:textColor="@color/white"/>
+            android:textColor="@color/black"/>
 
         <EditText
             android:layout_weight="1"
@@ -100,21 +101,13 @@
             android:textSize="20sp"
             android:gravity="center"
             android:textStyle="bold"
-            android:textColor="@color/white"/>
+            android:textColor="@color/black"/>
     </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="00:30"
-        android:layout_gravity="center"
-        android:textColor="@color/black"
-        android:textSize="12sp"/>
 
     <Button
         android:id="@+id/button"
-        android:layout_width="154dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
         android:layout_gravity="center"

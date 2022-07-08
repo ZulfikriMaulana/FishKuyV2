@@ -7,6 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="grey">#DDDDDD</color>
+    <color name="grey">#808080</color>
+    <color name="satu">#001036</color>
+    <color name="dua">#0066A7</color>
+    <color name="tiga">#1472AE</color>
+    <color name="empat">#252363</color>
     <color name="background_transparant">#A1FFF9F9</color>
 </resources>

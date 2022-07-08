@@ -14,7 +14,7 @@ public class Detailproduk3 extends AppCompatActivity {
         setContentView(R.layout.activity_detailproduk3);
     }
 
-    public void back11(View view) {
+    public void back5(View view) {
         Intent intent = new Intent(Detailproduk3.this, Seafood.class);
         startActivity(intent);
     }

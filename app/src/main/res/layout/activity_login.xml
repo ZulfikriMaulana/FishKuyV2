@@ -16,13 +16,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:layout_marginStart="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/logo_dark"/>
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="98dp"
+            android:layout_marginTop="-60dp"
             android:fontFamily="@font/roboto_condensed_bold"
             android:text="Login"
             android:textColor="#000000"
@@ -34,12 +43,14 @@
             android:layout_width="307dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="46dp"
+            android:layout_marginTop="10dp"
             android:hint="Email / nomor telepon">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_email"
                 android:layout_width="307dp"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:outlineAmbientShadowColor="@color/black"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -48,10 +59,11 @@
             android:layout_width="307dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="10dp"
             android:hint="Password">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_password"
                 android:layout_width="307dp"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword" />
@@ -60,10 +72,10 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="wrap_content"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/rounded_onboarding"
             android:fontFamily="@font/poppins_semibold"
             android:onClick="masuk"
@@ -74,7 +86,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="10dp"
             android:fontFamily="@font/roboto_bold"
             android:onClick="forgotPw"
             android:text="Lupa Kata Sandi"
@@ -85,7 +97,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="5dp">
 
             <TextView
                 android:id="@+id/textView3"

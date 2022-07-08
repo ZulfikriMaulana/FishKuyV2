@@ -13,10 +13,7 @@ public class Homescreen extends AppCompatActivity{
         setContentView(R.layout.activity_homescreen);
     }
 
-    public void search(View view) {
-        Intent intent = new Intent(Homescreen.this, Search2.class);
-        startActivity(intent);
-    }
+
 
     public void ikanLaut(View view) {
         Intent intent2 = new Intent(Homescreen.this, Ikanlaut.class);
@@ -46,6 +43,16 @@ public class Homescreen extends AppCompatActivity{
         startActivity(intent5);
     }
 
+    public void keranjang(View view) {
+        Intent intent9 = new Intent(Homescreen.this, Keranjang.class);
+        startActivity(intent9);
+    }
+
+    public void lacak(View view) {
+        Intent intent = new Intent(Homescreen.this, Lacak.class);
+        startActivity(intent);
+    }
+
     public void riwayat(View view) {
         Intent intent6 = new Intent(Homescreen.this, Riwayat.class);
         startActivity(intent6);
@@ -61,10 +68,7 @@ public class Homescreen extends AppCompatActivity{
         startActivity(intent8);
     }
 
-    public void keranjang(View view) {
-        Intent intent9 = new Intent(Homescreen.this, Keranjang.class);
-        startActivity(intent9);
-    }
+
 
     public void qna(View view) {
         Intent intent10 = new Intent(Homescreen.this, Menulainnya.class);

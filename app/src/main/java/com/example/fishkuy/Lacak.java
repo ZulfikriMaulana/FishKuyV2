@@ -15,7 +15,12 @@ public class Lacak extends AppCompatActivity {
     }
 
     public void back22(View view) {
-        Intent intent = new Intent(Lacak.this, Riwayat.class);
+        Intent intent = new Intent(Lacak.this, Homescreen.class);
         startActivity(intent);
+    }
+
+    public void buttonselesai(View view) {
+        Intent intent2 = new Intent(Lacak.this, Lacak2.class);
+        startActivity(intent2);
     }
 }

@@ -28,7 +28,7 @@ public class Detailproduk extends AppCompatActivity{
         startActivity(intent3);
     }
 
-    public void back6(View view) {
+    public void back5(View view) {
         Intent intent4 = new Intent(Detailproduk.this, Ikantawar.class);
         startActivity(intent4);
 

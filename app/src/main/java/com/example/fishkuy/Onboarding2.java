@@ -14,13 +14,8 @@ public class Onboarding2 extends AppCompatActivity {
         setContentView(R.layout.activity_onboarding2);
     }
 
-    public void back(View view) {
-        Intent intent = new Intent(Onboarding2.this, Onboarding1.class);
+    public void next5(View view) {
+        Intent intent = new Intent(Onboarding2.this, Login.class);
         startActivity(intent);
-    }
-
-    public void next3(View view) {
-        Intent intent2 = new Intent(Onboarding2.this, Login.class);
-        startActivity(intent2);
     }
 }

@@ -18,4 +18,9 @@ public class Chat extends AppCompatActivity {
         Intent intent = new Intent(Chat.this, Homescreen.class);
         startActivity(intent);
     }
+
+    public void tokonft(View view) {
+        Intent intent2 = new Intent(Chat.this, Chat2.class);
+        startActivity(intent2);
+    }
 }

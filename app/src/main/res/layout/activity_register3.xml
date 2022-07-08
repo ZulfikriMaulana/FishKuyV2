@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@drawable/bg_auth"
     tools:context=".Register3">
 
     <TextView
@@ -16,19 +17,20 @@
         android:fontFamily="@font/roboto_condensed_bold"
         android:text="Pendaftaran Berhasil!"
         android:textColor="#000000"
-        android:textSize="18sp"/>
+        android:layout_marginTop="60dp"
+        android:textSize="25sp"/>
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="97dp"
-        android:layout_height="94dp"
-        android:layout_marginTop="100dp"
+        android:layout_width="282dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="10dp"
         android:layout_gravity="center"
-        app:srcCompat="@drawable/checklist"/>
+        app:srcCompat="@drawable/pendaftaran_berhasil"/>
 
     <Button
         android:id="@+id/button"
-        android:layout_width="154dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:layout_gravity="center"
