@@ -55,9 +55,11 @@
             android:id="@+id/layout1"
             android:layout_marginTop="1dp"
             android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
             android:layout_height="fill_parent">
 
             <ImageView
+
                 android:id="@+id/search"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -67,6 +69,7 @@
                 android:src="@drawable/search_pesan" />
 
             <EditText
+                android:layout_centerHorizontal="true"
                 android:layout_width="276dp"
                 android:layout_height="33dp"
                 android:layout_alignParentTop="true"
